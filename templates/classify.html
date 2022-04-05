@@ -1,0 +1,23 @@
+<html>  
+<head>  
+    <title>Classification</title>  
+</head>  
+<body>  
+<style>
+body {background-color:  #c4c4ff;}
+form   {color: blue;}
+table   {color: black;}
+</style>
+ <h2 align="center"> Tommy Pizza Corner</h2>   
+    <form method = "post" action = "http://localhost:5000/validate">  
+        <table id="table1"; cellspacing="5px" cellpadding="5%"; align="center">  
+            <tr><td>age</td><td><input type = 'text' name = 'age'></td></tr>  
+            <tr><td>weight</td><td><input type = 'text' name = 'weight'></td></tr> <br> <br>
+            <tr><td><input type = "submit" value = "Submit"> </td>
+			<td><input type="reset" value="Reset"></td></tr>
+        </table>  
+    </form>  
+	<br><br>  <center>{{ prediction_text }}</center>
+	
+</body>  
+</html>  

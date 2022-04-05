@@ -1,0 +1,21 @@
+<html>  
+<head>  
+    <title>Regression</title>  
+</head>  
+<body>  
+<style>
+body {background-color:  #c4c4ff;}
+form   {color: blue;}
+table   {color: black;}
+</style>
+<h2 align="center"> Tommy Fuel Station</h2>   
+    <form method = "post" action = "http://localhost:5000/validates">  
+         <table id="table1"; cellspacing="5px" cellpadding="5%"; align="center">    
+            <tr><td>Kilometer</td><td><input type = 'text' name = 'kilometer'></td></tr>  <br><br>
+            <tr><td><input type = "submit" value = "Submit"></td>
+			<td><input type="reset" value="Reset"></td></tr>
+        </table>  
+    </form>  
+	<br><br>  <center>{{ prediction_text }}</center>
+</body>  
+</html>  
